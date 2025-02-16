@@ -1,0 +1,6 @@
+[submodule "backend/taskmanger"]
+	path = backend/taskmanger
+	url = https://github.com/annasozonova/TaskManager-backend.git
+[submodule "frontend/my-app"]
+	path = frontend/my-app
+	url = https://github.com/annasozonova/TaskManager-frontend.git

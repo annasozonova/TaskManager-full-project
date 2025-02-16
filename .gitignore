@@ -1,0 +1,4 @@
+# Common ignore rules
+*.log
+*.env
+*.DS_Store
