@@ -6,10 +6,10 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 123
       POSTGRES_DB: TasksManager
-    volumes:
-      - /c/Users/sozon/Projects/TasksManager/db_dumps/TasksManager-dump.sql:/docker-entrypoint-initdb.d/TasksManager-dump.sql
     ports:
       - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
 
   backend:
     build:
